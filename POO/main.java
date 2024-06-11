@@ -1,2 +1,5 @@
-package POO;public class main {
+package POO;
+
+public class main {
+
 }
