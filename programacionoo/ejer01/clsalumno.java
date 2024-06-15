@@ -1,4 +1,4 @@
-package POO.ejer01;
+package programacionoo.ejer01;
 
 public class clsalumno {
 
@@ -51,8 +51,21 @@ public class clsalumno {
         return v_ef;
     }
 
-    //Funciones
-    
+    //metodos
+    public void informar(){
+        System.out.printf("""
+                --------------------------------------------
+                            REPORTE DE NOTAS
+                --------------------------------------------
+                ALUMNO          EDAD  PC01  PC02  PC03  EF
+                --------------------------------------------
+                %-14.14S  %.2d  %.2d  %.2d  %.2d  %.2d
+                --------------------------------------------
+                """,v_nombre,v_edad,v_pc01,v_pc02,v_pc03,v_ef);
+        
+    }
+    //Funciones 
+
 
 
 }
