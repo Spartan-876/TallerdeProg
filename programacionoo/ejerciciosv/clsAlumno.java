@@ -1,4 +1,4 @@
-package programacionoo;
+package programacionoo.ejerciciosv;
 
 import ejerciciosgenerales.progresion;
 

@@ -36,16 +36,11 @@ public class ejer04 {
         System.out.printf("""
             -----------------------
               DATOS DEL LIBRO
-            ----------------------- 
+            -----------------------
             Titulo:  %s
             Autor:   %s
             Paginas: %d
             -----------------------
-                """,this.titulo,this.autor,this.numeroPaginas);
-    }   
-    //función
-    public int antiguedad(){
-        int anioActual=java.time.Year.now().getValue();
-        return anioActual-this.getnumeroPaginas();
+            """,this.gettitulo(),this.getautor(),this.getnumeroPaginas());
     }
 }

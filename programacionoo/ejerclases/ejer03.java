@@ -36,18 +36,18 @@ public class ejer03 {
     public void informe () {
         System.out.printf("""
                 -----------------------
-                  DATOS DEL ESTUDIANTE     
+                  DATOS DEL ESTUDIANTE
                 -----------------------
                 Nombre:    %s
                 Matricula: %s
                 Promedio:  %.2f
                 -----------------------
-                    """,nombre,matricula,promedio);
+                """,this.getnombre(),this.getmatricula(),this.getpromedio());
     }
     //Función
     public boolean pasadeaño (){
         boolean paso;
-        if (promedio<12) {
+        if (this.getpromedio()<12) {
             paso=false;
         }else  {
             paso=true;

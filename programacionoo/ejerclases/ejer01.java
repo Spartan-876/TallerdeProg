@@ -1,9 +1,8 @@
 package programacionoo.ejerclases;
 
 public class ejer01 {
-    private String nombre;
+    private String nombre,direccion;
     private int edad;
-    private String direccion;
     //constructor
     public ejer01(String nom, int ed, String direc ){
         this.nombre=nom;
@@ -34,13 +33,13 @@ public class ejer01 {
     public void informe () {
         System.out.printf("""
                 -----------------------
-                  DATOS DE LA PERSONA  
+                  DATOS DE LA PERSONA
                 -----------------------
                 Nombre:    %s
                 Edad:      %d
                 Dirección: %s
                 -----------------------
-                    """, nombre, edad, direccion);
+                """, nombre, edad, direccion);
     }
     //funciones
     public String mayoredad(){

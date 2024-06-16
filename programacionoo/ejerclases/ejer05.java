@@ -40,10 +40,10 @@ public class ejer05 {
             Precio:    %.2f
             Cantidad:  %d
             -----------------------
-                """, nombre, precio,cantidad);
+            """, this.getnombre(),this.getprecio(),this.getcantidad());
     }  
     //funciones
     public double total(){
-        return this.precio*this.cantidad;
+        return this.getprecio()*this.getcantidad();
     }
 }

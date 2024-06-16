@@ -1,14 +1,12 @@
-package programacionoo;
+package programacionoo.ejerciciosv;
 
 import java.util.Scanner;
-
-import programacionoo.ejer01.clsalumno;
 
 public class main {
     public static void main(String[] args) {
         Scanner lector=new Scanner(System.in);
-        clsAlumno alumno01=new clsAlumno();
-
+        clsAlumno alumno01=new clsAlumno("nombre",15);
+    
         System.out.println("Ingrese su nombre:");
         alumno01.setnombre(lector.nextLine());
 

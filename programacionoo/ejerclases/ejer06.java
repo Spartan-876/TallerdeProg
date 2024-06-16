@@ -34,16 +34,12 @@ public class ejer06 {
     public void informe() {
         System.out.printf("""
             -----------------------
-              DATOS DE LA ESPECIE  
+                DATOS DEL ANIMAL  
             -----------------------
             Especie:   %s
             Edad:      %d
             Peso:      %.2f
             -----------------------
-                """, this.especie, this.edad, this.peso);
-    }   
-    //funciones
-    public String obtenerInformacion() {
-        return "Especie: " + especie + ", Edad: " + edad + " años, Peso: " + peso + " kg";
+            """, this.getEspecie(), this.getEdad(), this.getPeso());
     }
 }

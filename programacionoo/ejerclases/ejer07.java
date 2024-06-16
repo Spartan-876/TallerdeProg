@@ -40,12 +40,12 @@ public class ejer07 {
             PUESTO:   %s
             SALARIO:  %.2f
             -----------------------
-                """, this.nombre,this.puesto,this.salario);
+            """, this.getnombre(),this.getpuesto(),this.getsalario());
     }
     //función
     public double aumento(){
         double aum;
-        if (salario<1200) {
+        if (this.getsalario()<1200) {
             aum=salario*0.1;
         } else{
             aum=0;

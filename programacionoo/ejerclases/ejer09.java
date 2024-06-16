@@ -40,10 +40,6 @@ public class ejer09 {
             Director:  %s   
             Duración:  %d
             -----------------------
-                """, this.titulo, this.director, this.duracion);
-    }
-    //función
-    public int duracion() {
-        return duracion;
+                """, this.gettitulo(), this.getdirector(), this.getduracion());
     }
 }

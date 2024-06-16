@@ -1,17 +1,17 @@
 package programacionoo.ejerclases;
 
 public class ejer08 {
-    private String numeroCuenta;
+    private long numeroCuenta;
     private double saldo;
     private String titular;
     //constructor 
-    public ejer08(String num, double sal, String tit){
+    public ejer08(long num, double sal, String tit){
         this.numeroCuenta=num;
         this.saldo=sal;
         this.titular=tit;
     }    
     //set
-    public void setnumeroCuenta(String num){
+    public void setnumeroCuenta(long num){
         this.numeroCuenta=num;
     }
     public void setsaldo(double sal){
@@ -21,7 +21,7 @@ public class ejer08 {
         this.titular=tit;
     }
     //get
-    public String getnumeroCuenta(){
+    public long getnumeroCuenta(){
         return this.numeroCuenta;
     }
     public double getsaldo(){
@@ -33,14 +33,14 @@ public class ejer08 {
     //metodo
     public void informe(){
         System.out.printf("""
-            ----------------------- 
-              DATOS DE LA CUENTA    
-            ----------------------- 
-            Cuenta:    %s
+            -----------------------
+              DATOS DE LA CUENTA
+            -----------------------
+            Cuenta:    %d
             Titular:   %s
             Saldo:     %.2f
             -----------------------
-                """,this.numeroCuenta,this.titular,this.saldo);
+            """, this.getnumeroCuenta(),this.gettitular(),this.getsaldo());
     }    
     //funcion
     public void depositar(double cant){

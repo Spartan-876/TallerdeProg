@@ -38,13 +38,13 @@ public class ejer02 {
     public void informe () {
         System.out.printf("""
                 -----------------------
-                  DATOS DEL VEHÍCULO     
+                  DATOS DEL VEHÍCULO
                 -----------------------
                 Modelo: %s
-                Marca:  %d
-                Año:    %s
+                Marca:  %s
+                Año:    %d
                 -----------------------
-                    """,this.modelo,this.marca,this.año);
+                """,this.getmarca(),this.getmarca(),this.getaño());
     }
     //función
     public int antiguedad(){
