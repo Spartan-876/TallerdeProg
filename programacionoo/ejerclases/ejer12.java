@@ -22,13 +22,13 @@ public class ejer12 {
     }
     //get
     public String getdireccion() {
-        return direccion;
+        return this.direccion;
     }
     public int getnumeroHabitaciones() {
-        return numeroHabitaciones;
+        return this.numeroHabitaciones;
     }
     public double gettamano() {
-        return tamaño;
+        return this.tamaño;
     }
     //metodos
     public void informar() {
@@ -38,12 +38,12 @@ public class ejer12 {
                 ------------------------------
                 Dirección: %s
                 Habitaciones: %d
-                Tamaño: %.2f
+                Tamaño: %.2f m²
                 ------------------------------
                 """,this.direccion,this.numeroHabitaciones,this.tamaño);
     }
     //funciones
     public double volumen() {
-        return this.tamaño * Math.sqrt(this.tamaño);
+        return this.tamaño * this.tamaño;
     }
 }

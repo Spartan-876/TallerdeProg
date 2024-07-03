@@ -40,7 +40,7 @@ public class ejer11 {
             RAM:        %d  GB
             Almacenamiento: %d GB
             -----------------------
-                """,procesador,ram,almacenamiento);
+                """,this.procesador,this.ram,this.almacenamiento);
     }
     
 }

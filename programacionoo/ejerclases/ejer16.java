@@ -40,10 +40,10 @@ public class ejer16 {
             modelo: %s
             almacenamiento: %d
             -----------------------
-                """,marca,modelo,almacenamiento);
+                """,this.marca,this.modelo,this.almacenamiento);
     }
     //funcion
     public int capacidad(){
-        return almacenamiento;
+        return this.almacenamiento;
     }
 }

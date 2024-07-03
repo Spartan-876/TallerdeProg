@@ -33,13 +33,13 @@ public class ejer14 {
     //metodos
     public void informe(){
         System.out.printf("""
-                -----------------------
-                  DATOS DE LA RESTAURANT
-                -----------------------
+                --------------------------
+                   DATOS DEL RESTAURANT
+                --------------------------
                 Nombre:    %s
                 Comida:    %s
                 Dirección: %s
-                -----------------------
+                --------------------------
                     """,this.nombre,this.tipoComida,this.direccion);
     }
 }
